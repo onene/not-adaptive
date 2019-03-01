@@ -1,0 +1,162 @@
+footer {
+  background-color: #696969;
+  padding-top: 2vw;
+  padding-bottom: 0.625vw; }
+  footer .footer_content {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 1vw;
+    margin-bottom: 1.687vw;
+    border-bottom: 1px solid #7a7a7a; }
+    footer .footer_content .footer_content_news {
+      width: 42.27%;
+      text-align-last: left; }
+      footer .footer_content .footer_content_news .footer_content_news_title {
+        border-bottom: 1px solid #7a7a7a;
+        margin-bottom: 2.125vw; }
+        footer .footer_content .footer_content_news .footer_content_news_title p {
+          font-family: "Roboto", sans-serif;
+          font-weight: bold;
+          font-size: 1.25vw;
+          text-transform: uppercase;
+          color: #cbcbcb;
+          padding-bottom: 1vw; }
+      footer .footer_content .footer_content_news .footer_content_news_subscribe p {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 1.25vw;
+        text-transform: uppercase;
+        color: #cbcbcb;
+        margin-bottom: 1vw; }
+      footer .footer_content .footer_content_news .footer_content_news_subscribe h3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 1vw; }
+      footer .footer_content .footer_content_news .footer_content_news_subscribe input {
+        border: none;
+        outline: none;
+        width: 70%;
+        font-size: 0.8vw;
+        padding: 1.25vw 1.875vw;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
+      footer .footer_content .footer_content_news .footer_content_news_subscribe input[type=submit] {
+        display: inline-block;
+        font-size: 0.8vw;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #ff8500;
+        text-decoration: none;
+        padding-top: 1.25vw;
+        padding-bottom: 1.25vw;
+        width: 30%;
+        margin-left: -4px; }
+    footer .footer_content .footer_content_links {
+      width: 49.27%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      footer .footer_content .footer_content_links .footer_content_links_item {
+        width: 30%; }
+        footer .footer_content .footer_content_links .footer_content_links_item .footer_content_links_item_title {
+          width: 100%;
+          padding-bottom: 2vw;
+          border-bottom: 1px solid #7a7a7a;
+          padding-bottom: 1.2vw;
+          margin-bottom: 2vw; }
+          footer .footer_content .footer_content_links .footer_content_links_item .footer_content_links_item_title p {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 1vw;
+            color: #cbcbcb; }
+        footer .footer_content .footer_content_links .footer_content_links_item .footer_content_links_item_title_links {
+          width: 100%; }
+          footer .footer_content .footer_content_links .footer_content_links_item .footer_content_links_item_title_links ul li a {
+            display: inline-block;
+            margin-bottom: 1vw;
+            color: #ffffff;
+            font-family: "Roboto", sans-serif;
+            font-size: 1vw;
+            -webkit-text-decoration-color: #a1a1a1;
+                    text-decoration-color: #a1a1a1; }
+  footer .footer_copy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+    footer .footer_copy .footer_copyrith_logo {
+      width: 50%; }
+      footer .footer_copy .footer_copyrith_logo .logo {
+        vertical-align: middle;
+        margin-right: 3px;
+        width: 7vw;
+        display: inline-block;
+        position: relative; }
+      footer .footer_copy .footer_copyrith_logo .line {
+        display: inline-block;
+        border-left: 1px solid #9197a3;
+        padding-left: 0.625vw;
+        padding-top: 3px;
+        padding-bottom: 0.625vw; }
+        footer .footer_copy .footer_copyrith_logo .line p {
+          display: inline-block;
+          color: #9197a3;
+          font-family: "Roboto", sans-serif;
+          font-size: 0.562vw; }
+    footer .footer_copy .footer_copyrith_social {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 17%;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      footer .footer_copy .footer_copyrith_social .footer_copyrith_social {
+        width: 20.4%;
+        border: 1px solid #7b8092;
+        color: #fff;
+        position: relative;
+        font-size: 1vw; }
+        footer .footer_copy .footer_copyrith_social .footer_copyrith_social:hover {
+          border: 1px solid #ffc925;
+          color: #ffc925; }
+        footer .footer_copy .footer_copyrith_social .footer_copyrith_social .fab {
+          position: absolute;
+          top: 25%;
+          left: 27%; }
+        footer .footer_copy .footer_copyrith_social .footer_copyrith_social .facebook {
+          padding-left: 0.25vw; }
+    footer .footer_copy .footer_copyrith_wezom {
+      width: 34%;
+      text-align: right; }
+      footer .footer_copy .footer_copyrith_wezom img {
+        width: 3vw;
+        margin-right: 0.625vw; }
+      footer .footer_copy .footer_copyrith_wezom .footer_copyrith_wezom_text {
+        padding-left: 0.625vw;
+        border-left: 1px solid #787878;
+        display: inline-block;
+        text-align: left; }
+        footer .footer_copy .footer_copyrith_wezom .footer_copyrith_wezom_text p {
+          color: #a0a9b2;
+          font-family: "Roboto", sans-serif;
+          font-size: 0.75vw;
+          margin-bottom: 0.312vw; }
+        footer .footer_copy .footer_copyrith_wezom .footer_copyrith_wezom_text h3 {
+          font-family: "Roboto", sans-serif;
+          font-size: 0.75vw;
+          color: #ffffff; }
+
+/*# sourceMappingURL=footer.css.map */

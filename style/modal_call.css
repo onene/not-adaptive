@@ -1,0 +1,66 @@
+#modal_form_call {
+  width: 28vw;
+  background: #ffffff;
+  position: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: 20vw;
+  left: 45vw;
+  margin-top: -6vw;
+  margin-left: -6vw;
+  display: none;
+  opacity: 0;
+  z-index: 5;
+  padding: 2vw 3.43vw; }
+  #modal_form_call #modal_close {
+    width: 1.312vw;
+    height: 1.312vw;
+    position: absolute;
+    top: -2.5vw;
+    right: -2.5vw;
+    display: block;
+    cursor: pointer; }
+    #modal_form_call #modal_close img {
+      width: 1vw; }
+  #modal_form_call .modal_form_call_content h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.875vw;
+    font-size: 1.2vw; }
+  #modal_form_call .modal_form_call_content p {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.64vw;
+    font-size: 1vw; }
+  #modal_form_call .modal_form_call_content input {
+    display: block;
+    margin-bottom: 1.875vw;
+    color: #9c9c9c;
+    outline: none;
+    width: 8.5vw;
+    font-size: 1vw; }
+  #modal_form_call .modal_form_call_content a {
+    color: #ffffff;
+    background-color: #ff8900;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.25vw;
+    padding-bottom: 1.25vw;
+    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+    width: 70%; }
+
+#overlay {
+  z-index: 3;
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  cursor: pointer; }
+
+/*# sourceMappingURL=modal_call.css.map */

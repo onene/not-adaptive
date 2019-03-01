@@ -1,0 +1,119 @@
+$font: 'Roboto', sans-serif
+$grey: #696969
+
+#modal_form
+    width: 50%
+    // max-width: 737px
+    // max-height: 432px
+    background: #ffffff
+    position: fixed
+    box-sizing: border-box
+    top: 20vw
+    left: 32vw
+    margin-top: -15vw
+    margin-left: -6vw
+    display: none
+    opacity: 0
+    z-index: 5
+    padding: 2vw 3.43vw
+    #modal_close 
+        width: 1.312vw
+        height: 1.312vw
+        position: absolute
+        top: -2.5vw
+        right: -2.5vw
+        display: block
+        cursor: pointer
+        img 
+            width: 1vw
+#overlay 
+    z-index: 3
+    position: fixed
+    background-color: #000000
+    opacity: 0.8
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    display: none
+    cursor: pointer
+.modal_form_content
+    display: flex
+    justify-content: space-between
+    
+    .modal_form_content_form
+        width: 45%
+        border-right: 1px solid #dbdbdb
+        padding-right: 3.43vw
+        box-sizing: border-box
+        h1 
+            font-size: 1.3vw
+            font-family: $font
+            font-weight: bold
+            margin-bottom: 2.125vw
+        form 
+            p 
+                font-family: $font
+                font-size: .875vw
+                margin-bottom: .625vw
+            input 
+                padding: .625vw .875vw
+                width: 100%
+                box-sizing: border-box
+                margin-bottom: 1vw
+                font-size: 1vw
+            input[type=checkbox]
+                width: auto
+            #remember_me
+                display: inline-block
+                margin-bottom: 1vw
+            .remember 
+                display: inline-block 
+            a 
+                color: #000000
+                font-family: $font
+                display: inline-block
+                margin-right: 1vw
+                font-size: .875vw
+                margin-bottom: 1vw
+            input[type=button]
+                width: 14.2vw
+                font-size: 1vw
+                font-family: $font
+                background-color: #717381
+                border: none
+                color: #ffffff
+    .modal_form_content_social
+        width: 45%
+        padding-left: 2vw
+        box-sizing: border-box
+        h1 
+            font-family: $font
+            font-weight: bold
+            margin-bottom: 3.125vw
+            font-size: 1.3vw
+        .modal_form_content_social_buttons
+            width: 100%
+            a 
+                display: block
+                width: 100%
+                font-family: $font
+                color: #fff
+                font-size: .875vw
+                margin-bottom: 1.437vw
+                text-decoration: none
+                padding-top: 1.187vw
+                padding-bottom: 1.187vw
+                text-align: center
+                i  
+                    margin-right: .625vw
+            .facebook
+                background-color: #3b5998
+            .twitter
+                background-color: #41abe1
+            .google
+                background-color: #ea4335  
+
+        
+
+

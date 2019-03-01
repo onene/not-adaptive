@@ -1,0 +1,41 @@
+#modal_form_sub {
+  width: 28vw;
+  background: #ffffff;
+  position: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: 20vw;
+  left: 45vw;
+  margin-top: -6vw;
+  margin-left: -6vw;
+  display: none;
+  opacity: 0;
+  z-index: 5;
+  padding: 2vw 3.43vw; }
+  #modal_form_sub #modal_close {
+    width: 1.312vw;
+    height: 1.312vw;
+    position: absolute;
+    top: -2.5vw;
+    right: -2.5vw;
+    display: block;
+    cursor: pointer; }
+    #modal_form_sub #modal_close img {
+      width: 1vw; }
+  #modal_form_sub .modal_form_sub_content h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1vw; }
+
+#overlay {
+  z-index: 3;
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  cursor: pointer; }
+
+/*# sourceMappingURL=modal_sub.css.map */
